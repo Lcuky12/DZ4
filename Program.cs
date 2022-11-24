@@ -12,12 +12,12 @@ namespace ConsoleApp6
     {
         static void Main(string[] args)
         {
-            int a = 3;
-            int b = 52;
-            int c = b / a;
-            int d = b % a;
-            Console.WriteLine(" Заполненных рядов " + c);
-            Console.WriteLine(" Осталось картинок " + d);
+            int row = 3;
+            int pictures = 52;
+            int completedPages = pictures / row;
+            int remainder = pictures % row;
+            Console.WriteLine(" Заполненных рядов " + completedPages);
+            Console.WriteLine(" Осталось картинок " + remainder);
         }
     }
 }
